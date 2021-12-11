@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Index {
     @GetMapping("/")
     public String index(){
-        return "Welcome to Rich Assets";
+        return "Welcome to Rich Assets and testing";
     }
 }
